@@ -106,14 +106,14 @@ st.markdown("""
    ```
 2. **Install dependencies:**
    ```
-   pip install streamlit requests pdfplumber
+   pip install streamlit requests pdfplumber pillow
    ```
 3. **Run locally:**
    ```
    streamlit run app.py
    ```
 4. **Deploy to [Streamlit Community Cloud](https://streamlit.io/cloud):**
-   - Push your code (including `app.py` and a `requirements.txt` with `streamlit`, `requests`, and `pdfplumber`) to a public GitHub repo.
+   - Push your code (including `app.py` and a `requirements.txt` with `streamlit`, `requests`, `pdfplumber`, and `pillow`) to a public GitHub repo.
    - Go to [Streamlit Cloud](https://streamlit.io/cloud), sign in, and click 'New app'.
    - Select your repo and branch, and set the main file as `app.py`.
    - In the app settings, add your `HUGGINGFACE_API_KEY` as a secret.
